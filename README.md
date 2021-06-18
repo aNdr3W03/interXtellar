@@ -1,5 +1,11 @@
 # interXtellar
 
+## h2
+### h3
+#### h4
+##### h5
+###### h6
+
 *This text will be italic*
 _This will also be italic_
 
