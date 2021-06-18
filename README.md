@@ -11,12 +11,13 @@
 #### username: `andrew123`
 #### password: `andrew123`
 
+
 ## Note:
 #### in this file, there are 4 folders:
 
 **1. DB**
   This is the interXtellar database folder. There are 2 files in it, `.sql` and `.xml` files. This file will be imported into `phpmyadmin`. If the `.sql` file fails to import to the database, then you can import the file with the extension `.xml`.
-> - sql (structured query language)
+> - sql (Structured Query Language)
 > - xml (Extensible Markup Language)
 
 **2. explore**
@@ -38,4 +39,9 @@ In this folder, there is an `explore_img` folder to store the image input from t
 > - `koneksi.php` is a script to connect localhost with database
 > - `login.php` is the website login (login) page with a connection to `login_proses.php`
 > - `signup.php` is a website account register page with a connection to `signup_proses.php`
-> - `logout.php` is a script to end a user session and log out of an account that is already logged in. 
+> - `logout.php` is a script to end a user session and log out of an account that is already logged in.
+
+I think you should use an
+`<addr>` element here instead.
+
+
