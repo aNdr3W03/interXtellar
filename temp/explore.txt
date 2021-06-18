@@ -1,0 +1,119 @@
+/// DATABASE ///
+id
+star
+object
+mass
+radius
+period
+distance
+travel_time
+price
+image
+
+/// DAFTAR BARANG ///
+No
+Image
+Star
+Object
+Mass
+Radius
+Period
+Distance
+Travel Time
+Price
+Action [Edit][Delete]
+
+/// TAMBAH BARANG ///
+Star
+Object
+Mass
+Radius
+Period
+Distance
+Travel Time
+Price
+Image [Choose File]
+[Submit]
+
+
+
+
+
+Earth
+Sun
+1.00
+1.00
+365.24
+0
+
+TRAPPIST-1d
+TRAPPIST-1
+0.30
+0.78
+4.05
+39
+
+Kepler-1649c
+Kepler-1649
+—
+1.06
+19.5
+301
+
+Proxima Centauri b
+Proxima Centauri
+≥1.27
+—
+11.186
+4.25
+
+Ross 128 b
+Ross 128
+≥1.40
+—
+9.87
+11.03
+
+TRAPPIST-1e
+TRAPPIST-1
+0.77
+0.91
+6.1
+39
+
+Wolf 1061c
+Wolf 1061
+≥3.41
+—
+17.9
+13.8
+
+TRAPPIST-1f
+TRAPPIST-1
+0.93
+1.05
+9.2
+39
+
+Kepler-186f
+Kepler-186
+—
+1.17
+129.9
+579
+
+TOI 700 d
+TOI 700
+~1.72
+1.14
+37.4
+101
+
+
+
+
+
+
+
+
+

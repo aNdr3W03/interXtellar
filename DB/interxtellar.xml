@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 5.0.3
+- https://www.phpmyadmin.net
+-
+- Host: 127.0.0.1
+- Generation Time: Jun 18, 2021 at 02:58 PM
+- Server version: 10.4.14-MariaDB
+- PHP Version: 7.2.34
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="interxtellar" collation="utf8mb4_general_ci" charset="utf8mb4">
+            <pma:table name="explore">
+                CREATE TABLE `explore` (
+                  `id` int(3) NOT NULL AUTO_INCREMENT,
+                  `star` varchar(64) NOT NULL,
+                  `object` varchar(64) NOT NULL,
+                  `mass` varchar(64) NOT NULL,
+                  `radius` varchar(64) NOT NULL,
+                  `period` varchar(64) NOT NULL,
+                  `distance` varchar(64) NOT NULL,
+                  `travel_time` varchar(64) NOT NULL,
+                  `price` int(64) NOT NULL,
+                  `image` varchar(128) NOT NULL,
+                  PRIMARY KEY (`id`),
+                  KEY `object` (`object`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=37 DEFAULT CHARSET=utf8mb4;
+            </pma:table>
+            <pma:table name="users">
+                CREATE TABLE `users` (
+                  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+                  `user_id` bigint(20) NOT NULL,
+                  `full_name` varchar(128) NOT NULL,
+                  `email` varchar(32) NOT NULL,
+                  `username` varchar(32) NOT NULL,
+                  `password` varchar(32) NOT NULL,
+                  `date` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
+                  PRIMARY KEY (`id`),
+                  KEY `user_id` (`user_id`),
+                  KEY `username` (`username`),
+                  KEY `date` (`date`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8mb4;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'interxtellar'
+    -->
+    <database name="interxtellar">
+        <!-- Table explore -->
+        <table name="explore">
+            <column name="id">7</column>
+            <column name="star">TRAPPIST-1</column>
+            <column name="object">TRAPPIST-1d</column>
+            <column name="mass">0.3</column>
+            <column name="radius">0.78</column>
+            <column name="period">4.05</column>
+            <column name="distance">39</column>
+            <column name="travel_time">78</column>
+            <column name="price">195000000</column>
+            <column name="image">2095TRAPPIST-1d.png</column>
+        </table>
+        <table name="explore">
+            <column name="id">9</column>
+            <column name="star">Proxima Centauri</column>
+            <column name="object">Proxima Centauri b</column>
+            <column name="mass">1.27</column>
+            <column name="radius">0</column>
+            <column name="period">11.186</column>
+            <column name="distance">4.25</column>
+            <column name="travel_time">8.5</column>
+            <column name="price">195000000</column>
+            <column name="image">5192Proxima Centauri b.jpg</column>
+        </table>
+        <table name="explore">
+            <column name="id">10</column>
+            <column name="star">Kepler-1649</column>
+            <column name="object">Kepler-1649c</column>
+            <column name="mass">-</column>
+            <column name="radius">1.06</column>
+            <column name="period">19.5</column>
+            <column name="distance">301</column>
+            <column name="travel_time">602</column>
+            <column name="price">853000000</column>
+            <column name="image">5701Kepler-1649c.png</column>
+        </table>
+        <table name="explore">
+            <column name="id">11</column>
+            <column name="star">TOI 700</column>
+            <column name="object">TOI 700 d</column>
+            <column name="mass">1.72</column>
+            <column name="radius">1.14</column>
+            <column name="period">37.4</column>
+            <column name="distance">101</column>
+            <column name="travel_time">202</column>
+            <column name="price">412000000</column>
+            <column name="image">7262TOI 700 d.jpg</column>
+        </table>
+        <table name="explore">
+            <column name="id">12</column>
+            <column name="star">Ross 128</column>
+            <column name="object">Ross 128 b</column>
+            <column name="mass">1.40</column>
+            <column name="radius">-</column>
+            <column name="period">9.87</column>
+            <column name="distance">11.03</column>
+            <column name="travel_time">22.06</column>
+            <column name="price">354000000</column>
+            <column name="image">9627Ross 128 b.jpg</column>
+        </table>
+        <table name="explore">
+            <column name="id">35</column>
+            <column name="star">Sun</column>
+            <column name="object">Earth</column>
+            <column name="mass">1.00</column>
+            <column name="radius">1.00</column>
+            <column name="period">365.24</column>
+            <column name="distance">0</column>
+            <column name="travel_time">0</column>
+            <column name="price">50000</column>
+            <column name="image">9995Earth.png</column>
+        </table>
+        <!-- Table users -->
+        <table name="users">
+            <column name="id">1</column>
+            <column name="user_id">1</column>
+            <column name="full_name">admin</column>
+            <column name="email">admin@admin.com</column>
+            <column name="username">admin</column>
+            <column name="password">21232f297a57a5a743894a0e4a801fc3</column>
+            <column name="date">2021-06-18 13:41:15</column>
+        </table>
+        <table name="users">
+            <column name="id">8</column>
+            <column name="user_id">4509844971401437508</column>
+            <column name="full_name">Andrew Benedictus Jamesie</column>
+            <column name="email">andrewbjamesie@yahoo.com</column>
+            <column name="username">andrew123</column>
+            <column name="password">47fab60bdcd2ffce91447d19fe9ce7f1</column>
+            <column name="date">2021-06-18 16:04:45</column>
+        </table>
+    </database>
+</pma_xml_export>
