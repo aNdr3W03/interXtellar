@@ -2,6 +2,7 @@
 
 #### This is my Final Project for Web Programming I (lab)
 
+
 ## Login Page
 #### The username and password are already registered in the database, but the password is encrypted. The following is the username and password to login to the interXtellar website.
 #### username: `admin`
@@ -15,8 +16,8 @@
 
 **1. DB**
   This is the interXtellar database folder. There are 2 files in it, `.sql` and `.xml` files. This file will be imported into `phpmyadmin`. If the `.sql` file fails to import to the database, then you can import the file with the extension `.xml`.
-> sql (structured query language)
-> xml (Extensible Markup Language)
+> - sql (structured query language)
+> - xml (Extensible Markup Language)
 
 **2. explore**
 In this folder, there is an `explore_img` folder to store the image input from the CRUD entered by the user.
@@ -32,9 +33,9 @@ In this folder, there is an `explore_img` folder to store the image input from t
   In this folder there is an `explore_images` folder and an `explore.txt` file which I use to list the data to be entered into the database (CRUD), namely images and text input.
 
 > Other files:
-> * `icon.png` is used as the icon on the browser tab and the logo on the navbar.
-> * `home.php` is the main page (homepage) of this interXtellar website
-> * `koneksi.php` is a script to connect localhost with database
-> * `login.php` is the website login (login) page with a connection to `login_proses.php`
-> * `signup.php` is a website account register page with a connection to `signup_proses.php`
-> * `logout.php` is a script to end a user session and log out of an account that is already logged in. 
+> - `icon.png` is used as the icon on the browser tab and the logo on the navbar.
+> - `home.php` is the main page (homepage) of this interXtellar website
+> - `koneksi.php` is a script to connect localhost with database
+> - `login.php` is the website login (login) page with a connection to `login_proses.php`
+> - `signup.php` is a website account register page with a connection to `signup_proses.php`
+> - `logout.php` is a script to end a user session and log out of an account that is already logged in. 
