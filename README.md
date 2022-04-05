@@ -48,5 +48,5 @@
 
 
 # 
-**Homepage Preview**
+# Homepage Preview
 ![interXtellar Homepage](screenshot/interXtellar_full.png)
