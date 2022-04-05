@@ -3,8 +3,11 @@
 #### This is my Final Project for Laboratory - Web Programming I
 #### PW2_UAS_201401035
 
+**YouTube Video:**
+[![YouTube Video](screenshot/interXtellar.jpg)](https://youtu.be/Mr4N5Zh9H38)
 
-## Login Page
+# 
+# Login Page
 #### The username and password are already registered in the database, but the password is encrypted. The following is the username and password to login to the interXtellar website.
 #### username: `admin`
 #### password: `admin`
@@ -12,8 +15,8 @@
 #### username: `andrew123`
 #### password: `andrew123`
 
-
-## Note:
+# 
+# Note:
 #### In this file, there are 4 folders:
 
 **1. DB**
@@ -42,3 +45,8 @@
 > - `login.php` is the website login (login) page with a connection to `login_proses.php`
 > - `signup.php` is a website account register page with a connection to `signup_proses.php`
 > - `logout.php` is a script to end a user session and log out of an account that is already logged in.
+
+
+# 
+**Homepage Preview**
+![interXtellar Homepage](screenshot/interXtellar_full.png)
